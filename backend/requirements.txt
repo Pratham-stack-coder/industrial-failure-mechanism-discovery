@@ -1,0 +1,78 @@
+# ============================================================
+# Backend requirements - Industrial Failure Mechanism Discovery
+# ============================================================
+
+# --- Web Framework ---
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+
+# --- Database ---
+sqlalchemy[asyncio]==2.0.30
+alembic==1.13.1
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+
+# --- Validation ---
+pydantic==2.7.1
+pydantic-settings==2.2.1
+email-validator==2.1.1
+
+# --- Authentication ---
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# --- Data processing ---
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.0
+scikit-learn==1.4.2
+
+# --- Time-series & Change-point detection ---
+ruptures==1.1.9
+statsmodels==0.14.2
+
+# --- Graph ---
+networkx==3.3
+# PyTorch Geometric - install separately if GPU available
+# torch-geometric==2.5.3
+
+# --- ML / Deep Learning (CPU-only for student project) ---
+torch==2.3.0+cpu
+# For GPU: torch==2.3.0 (remove +cpu)
+
+# --- Explainability ---
+shap==0.45.0
+
+# --- File handling ---
+python-magic==0.4.27
+openpyxl==3.1.2
+pyarrow==16.1.0
+
+# --- LLM (optional, loaded conditionally) ---
+openai==1.30.1
+google-generativeai==0.7.2
+httpx==0.27.0
+
+# --- Utilities ---
+python-dotenv==1.0.1
+loguru==0.7.2
+tenacity==8.3.0
+celery==5.4.0
+redis==5.0.4
+aiofiles==23.2.1
+ujson==5.10.0
+
+# --- Testing ---
+pytest==8.2.0
+pytest-asyncio==0.23.7
+pytest-cov==5.0.0
+httpx==0.27.0
+factory-boy==3.3.0
+faker==25.2.0
+
+# --- Development ---
+black==24.4.2
+isort==5.13.2
+mypy==1.10.0
+ruff==0.4.4

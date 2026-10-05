@@ -1,0 +1,116 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+dist/
+dist-ssr/
+*.local
+.eslintcache
+
+# Environment secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite3
+*.psql
+
+# Data files (keep schemas, ignore large data)
+data/raw/*.csv
+data/raw/*.parquet
+data/raw/*.json
+data/processed/
+data/synthetic/
+!data/schemas/
+!data/synthetic/example_*.json
+
+# Research outputs
+research/results/plots/*.png
+research/results/plots/*.pdf
+research/results/tables/*.csv
+research/results/tables/*.xlsx
+!research/results/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Docker
+.dockerignore
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Alembic
+alembic/versions/*.pyc

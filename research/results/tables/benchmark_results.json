@@ -1,0 +1,128 @@
+{
+  "Proposed System (Full)": {
+    "ndcg@5": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "mrr": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "precision@1": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "precision@3": {
+      "mean": 0.3333333333333333,
+      "std": 0.0
+    }
+  },
+  "Ablation: No Temporal": {
+    "ndcg@5": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "mrr": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "precision@1": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "precision@3": {
+      "mean": 0.3333333333333333,
+      "std": 0.0
+    }
+  },
+  "Ablation: No Graph": {
+    "ndcg@5": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "mrr": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "precision@1": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "precision@3": {
+      "mean": 0.3333333333333333,
+      "std": 0.0
+    }
+  },
+  "Ablation: No Contradiction": {
+    "ndcg@5": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "mrr": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "precision@1": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "precision@3": {
+      "mean": 0.3333333333333333,
+      "std": 0.0
+    }
+  },
+  "Baseline: Correlation RCA": {
+    "ndcg@5": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "mrr": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "precision@1": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "precision@3": {
+      "mean": 0.3333333333333333,
+      "std": 0.0
+    }
+  },
+  "Baseline: Isolation Forest Anomaly": {
+    "ndcg@5": {
+      "mean": 0.5,
+      "std": 0.0
+    },
+    "mrr": {
+      "mean": 0.3333333333333333,
+      "std": 0.0
+    },
+    "precision@1": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "precision@3": {
+      "mean": 0.3333333333333333,
+      "std": 0.0
+    }
+  },
+  "Baseline: Supervised Random Forest": {
+    "ndcg@5": {
+      "mean": 0.6309297535714575,
+      "std": 0.0
+    },
+    "mrr": {
+      "mean": 0.5,
+      "std": 0.0
+    },
+    "precision@1": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "precision@3": {
+      "mean": 0.3333333333333333,
+      "std": 0.0
+    }
+  }
+}
